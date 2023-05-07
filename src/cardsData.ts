@@ -1,4 +1,6 @@
-export const cardsData = [
+import { CardProps } from "./components/Card"
+
+export const cardsData: CardProps[] = [
     {
         type: "Article",
         date: "01/25/2023",
