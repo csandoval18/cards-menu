@@ -15,6 +15,10 @@ const Card: React.FC<CardProps> = (props: CardProps) => {
         <span className='type'>{props.type}</span>
         <span className="date">{props.date}</span>
       </p>
+      <span className="title">{props.title}</span>
+      <ul className="tags">
+        {props.tags.map((tag) => (<li className="tag">{tag}</li>))}
+      </ul>
 		</div>
 	);
 };
