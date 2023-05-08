@@ -1,0 +1,14 @@
+.card-wrapper {
+  background: linear-gradient(85deg,#434343,#262626);
+	border-radius: 10px;
+	min-width: 300px;
+	padding: 10px;
+	&:hover {
+		transform: translate(-0.5rem, -1rem) rotate(3deg);
+	}
+}
+
+.card-layout {
+	display: flex;
+	gap: 15px;
+}
