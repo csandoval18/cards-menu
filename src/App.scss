@@ -1,6 +1,7 @@
 .card-layout {
 	display: flex;
 	gap: 15px;
+  overflow: auto;
 }  
 
 .card-wrapper {
