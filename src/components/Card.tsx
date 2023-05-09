@@ -19,6 +19,10 @@ const Card: React.FC<CardProps> = (props: CardProps) => {
       <ul className="tags">
         {props.tags.map((tag) => (<li className="tag">{tag}</li>))}
       </ul>
+      <div className="author-wrapper">
+        <div className="avatar"></div>
+        <div className="author">{props.author}</div>
+      </div>
 		</div>
 	);
 };
