@@ -10,7 +10,7 @@ export interface CardProps {
 
 const Card: React.FC<CardProps> = (props: CardProps) => {
 	return (
-		<div className='card-wrapper'>
+		<div className='card'>
       <p>
         <span className='type'>{props.type}</span>
         <span className="date">{props.date}</span>

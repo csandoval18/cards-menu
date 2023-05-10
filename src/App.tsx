@@ -5,7 +5,7 @@ import Card from './components/Card';
 function App() {
 	return (
 		<div className='App'>
-			<div className='card-layout'>
+			<div className='cards-layout'>
 				{cardsData.map((card) => (
 					<Card
 						type={card.type}
